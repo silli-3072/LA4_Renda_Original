@@ -8,9 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var startButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        startButton.layer.borderColor = UIColor.black.cgColor
+        startButton.layer.borderWidth = 5.0
+        
         // Do any additional setup after loading the view.
     }
 
